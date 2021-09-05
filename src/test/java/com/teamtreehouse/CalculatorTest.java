@@ -41,12 +41,14 @@ public class CalculatorTest {
         assertEquals(3, result);
     }
     
-    //@Test
-    //public void squareWorks() throws Exception {
-        //int result = calc.square(2);
+    
+    //NEW TEST
+    @Test
+    public void squareWorks() throws Exception {
+        int result = calc.square(2);
         
-        //assertEquals(4, result);
-   // }
+        assertEquals(4, result);
+    }
 
 
 }
