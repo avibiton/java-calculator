@@ -1,5 +1,5 @@
 package com.teamtreehouse;
-// comment here
+
 
 public class Calculator {
 
@@ -18,7 +18,9 @@ public class Calculator {
     public int divide(int a, int b) {
         return a / b;
     }
-    //public int square(int a) {
-        //return a * a;
-    //}
+    
+    // NEW CODE
+    public int square(int a) {
+        return a * a;
+    }
 }
